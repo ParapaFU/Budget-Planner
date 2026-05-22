@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.budget {
+  .budget-awal {
+    background-color: lightgreen;
+  }
+  .budget-terpakai {
+    background-color: red;
+  }
+  .budget-sisa {
+    background-color: orange;
+  }
+}
+
+.input-pengeluaran {
+  background-color: rgba(0, 0, 0, 0.5);
+}
