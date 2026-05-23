@@ -3,7 +3,7 @@
   padding: 0;
 }
 
-.budget {
+nav {
   .budget-awal {
     background-color: lightgreen;
   }
@@ -17,4 +17,5 @@
 
 .input-pengeluaran {
   background-color: rgba(0, 0, 0, 0.5);
+  inset: 0;
 }

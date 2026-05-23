@@ -3,18 +3,19 @@
   padding: 0;
 }
 
-.budget .budget-awal {
+nav .budget-awal {
   background-color: lightgreen;
 }
-.budget .budget-terpakai {
+nav .budget-terpakai {
   background-color: red;
 }
-.budget .budget-sisa {
+nav .budget-sisa {
   background-color: orange;
 }
 
 .input-pengeluaran {
   background-color: rgba(0, 0, 0, 0.5);
+  inset: 0;
 }
 
 /*# sourceMappingURL=main.css.map */

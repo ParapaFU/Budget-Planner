@@ -22,26 +22,32 @@
     >
       <h1>Budget Planner</h1>
     </header>
-    <nav class="budget row">
+      
+    <nav class="container-fluid">
+    <div class="row">
       <section
-        class="budget-awal col text-center d-flex flex-column justify-content-center"
+        class="budget-awal col text-center"
       >
         Budget awal : <span class="budget">RP.3.000.000</span>
       </section>
       <section
-        class="budget-terpakai col text-center d-flex flex-column justify-content-center"
+        class="budget-terpakai col text-center"
       >
         Budget terpakai : <span class="budget">RP.3.000.00</span>
       </section>
       <section
-        class="budget-sisa col text-center d-flex flex-column justify-content-center"
+        class="budget-sisa col text-center"
       >
         Budget sisa : <span class="budget">RP.3.000.00</span>
       </section>
+    </div>
     </nav>
-    <main class="position-relative">
-      <button>Tambah Pengeluaran</button>
-      <section class="input-pengeluaran position-absolute">
+    <main class="container">
+      <div class="button d-flex flex-column gap-3 my-3">
+        <button class="btn btn-secondary">Tambah Pengeluaran</button>
+        <button class="btn btn-secondary">Daftar Transaksi</button>
+      </div>
+      <section class="input-pengeluaran position-absolute d-none">
         <form>
           <input type="text" />
           <input type="number" />
