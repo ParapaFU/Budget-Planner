@@ -16,6 +16,24 @@ nav .budget-sisa {
 .input-pengeluaran {
   background-color: rgba(0, 0, 0, 0.5);
   inset: 0;
+  box-sizing: border-box;
+}
+.input-pengeluaran .tambah-form {
+  background-color: white;
+  width: 75%;
+}
+.input-pengeluaran .tambah-form .label {
+  color: rgb(0, 0, 0);
+}
+
+.daftar-transaksi .tabel-transaksi {
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+.daftar-transaksi .tabel-transaksi th,
+.daftar-transaksi .tabel-transaksi td {
+  border: 2px solid black;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
